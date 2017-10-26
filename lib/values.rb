@@ -11,7 +11,7 @@ require 'pry'
 def get_the_values(groceries)
   f = []
   groceries.each{|key,val|
-    f.push(val)
+    f += val
   }
   f
 end
