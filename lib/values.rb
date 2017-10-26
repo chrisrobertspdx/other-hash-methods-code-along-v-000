@@ -9,5 +9,6 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-
+  my_var = "hello"
+  puts my_var
 end
