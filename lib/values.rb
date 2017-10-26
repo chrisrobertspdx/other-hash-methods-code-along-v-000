@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  my_var = "hello"
+  @my_var = "hello"
   pry.binding
   puts my_var
 end
