@@ -12,7 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
   f = []
   groceries.each{|key,val|
-    puts val
+    f.push(val)
   }
   pry.binding
   f
