@@ -9,11 +9,9 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
   f = []
+  pry.binding
   groceries.each{|key,val|
     f.push(val)
   }
-  pry.binding
-  f
 end
