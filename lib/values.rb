@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  f = []
+  f = 2
   pry.binding
   groceries.each{|key,val|
     f.push(val)
