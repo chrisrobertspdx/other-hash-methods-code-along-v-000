@@ -10,10 +10,10 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  flatgroc = []
+  f = []
   groceries.each{|key,val|
-    flatgroc += val
+    puts val
   }
   pry.binding
-  flatgroc
+  f
 end
