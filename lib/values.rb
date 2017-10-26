@@ -9,7 +9,8 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  @my_var = "hello"
-  pry.binding
-  puts my_var
+  f = 2
+  groceries.each{|key,val|
+    f.push(val)
+  }
 end
