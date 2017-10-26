@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  f = 2
+  f = []
   groceries.each{|key,val|
     f.push(val)
   }
