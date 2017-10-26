@@ -12,7 +12,7 @@ def get_the_values(groceries)
   #code your solution here!
   flatgroc = []
   groceries.each{|key,val|
-    flatgroc.concat val
+    puts "s"
   }
   pry.binding
   flatgroc
