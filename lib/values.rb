@@ -13,4 +13,5 @@ def get_the_values(groceries)
   groceries.each{|key,val|
     f.push(val)
   }
+  f
 end
